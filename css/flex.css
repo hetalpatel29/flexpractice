@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg_cornflowerblue {
+    background-color: cornflowerblue;
+}
+
+.bg_darkseagreen {
+    background-color: darkseagreen;
+}
+
+.bg_tan {
+    background-color: tan;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.box {
+    padding: 10px;
+    border: 2px solid black;
+    width: 50px;
+}
+
+.div1 {
+    flex: 10;
+    order: 1;
+}
+
+.div2 {
+    flex: 15;
+    order: 3;
+}
+
+.div3 {
+    flex: 20;
+    order: 2;
+}
